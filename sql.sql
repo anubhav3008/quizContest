@@ -10,13 +10,6 @@ CREATE TABLE question (
     PRIMARY KEY (ID)
 );
 
-create table users(
-username varchar(255),
-score int,
-primary key (username)
-);
-
-
 insert into question(question,option1,option2,option3,option4,answer,questionlevel)
 values("What is the capital of India","Delhi","Mumbai","Kolkata","Chennai","Delhi",1);
 
